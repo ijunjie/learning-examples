@@ -16,4 +16,3 @@ package object ch2 {
   }
 
 }
-

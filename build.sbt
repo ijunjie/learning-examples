@@ -5,7 +5,7 @@ version := "1.0"
 
 scalaVersion in ThisBuild := "2.11.1"
 
-ensimeScalaVersion in ThisBuild := "2.11.1"
+//ensimeScalaVersion in ThisBuild := "2.11.1"
 
 resolvers ++= Seq(
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
@@ -41,6 +41,6 @@ libraryDependencies += "com.quantifind" %% "wisp" % "0.0.4"
 
 libraryDependencies += "org.scalafx" %% "scalafx" % "1.0.0-R8"
 
-unmanagedJars in Compile += Attributed.blank(file(scala.util.Properties.javaHome) / "/lib/jfxrt.jar")
+//unmanagedJars in Compile += Attributed.blank(file(scala.util.Properties.javaHome) / "/lib/jfxrt.jar")
 
 libraryDependencies += "com.storm-enroute" %% "reactive-collections" % "0.5"
